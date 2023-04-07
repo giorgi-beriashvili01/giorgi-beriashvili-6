@@ -1,0 +1,44 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+header {
+    width: 100%;
+    padding: 52px 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_text {
+    font-style: medium;
+    font-size: 24px;
+    font-weight: 500;
+    color: #758BFD;
+    display: inline-block;
+}
+
+.news {
+    color: #27187F;
+}
+
+.services {
+    margin: 0 50px;
+}
+.search_div{
+    width: 15%;
+    border: 3px solid #27187F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+
+}
+.fa-magnifying-glass {
+
+    padding: 5px;
+    font-size: 39px;
+    color: #758BFD;
+    border-radius: 10px;
+}

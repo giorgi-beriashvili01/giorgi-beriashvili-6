@@ -29,7 +29,7 @@ header {
 }
 
 .search_div {
-    width: 15%;
+    width: 17%;
     border: 3px solid #27187F;
     border-radius: 10px;
     display: flex;
@@ -44,6 +44,7 @@ header {
     color: #758BFD;
     border-radius: 10px;
 }
+
 /* company news */
 .main_section {
     width: 100%;
@@ -52,7 +53,6 @@ header {
 
 }
 
-.main_div {}
 
 h1 {
     color: #27187F;
@@ -83,17 +83,94 @@ figure {
 }
 
 
-.figure_img { 
+.figure_img {
     width: 100%;
     object-fit: cover;
     object-position: center;
     display: block;
     margin-bottom: 33px;
 }
+
 figcapyion {
-font-size: 20px;
-font-weight: 400;
-line-height: 23px;
-text-align: left;
-color: #133B3A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: #133B3A;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #758BFD;
+    padding: 75px 98px;
+}
+
+.footer_maindiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 97px;
+
+}
+
+.footer_icondiv {
+    height: 102px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.contact_info {
+    color: #00CAD7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
+.mail {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    margin: 17px 0;
+}
+
+.footer_icons {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.footer_divs {
+    display: flex;
+    flex-direction: column;
+    height: 202px;
+    justify-content: space-between;
+}
+
+.footer_list_title {
+    color: #00CAD7;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+.footer_list {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.paymant_div {
+    width: 421px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
 }
